@@ -1,0 +1,12 @@
+# Copy of the Roboflow export layout. Point these at your local download.
+# Dataset: https://app.roboflow.com/ai-lisrp/merged_final_data/train
+path: ./data
+train: train/images
+val: valid/images
+test: test/images
+
+names:
+  0: crack
+  1: garbage
+  2: manhole
+  3: pothole

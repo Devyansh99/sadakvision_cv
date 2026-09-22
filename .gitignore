@@ -1,0 +1,25 @@
+# Large weights - hosted externally (Hugging Face, coming soon)
+*.pt
+*.pth
+
+# Videos - not pushed for now
+*.mp4
+results_videos/
+
+# Bulk prediction dumps (2000+ images each) - only assets/samples/ is tracked
+*_test_predictions/
+test_predictions/
+*/labels/*.txt
+predictions.json
+
+# Dataset (download via Roboflow link in README)
+data/
+*.zip
+
+# Python / OS noise
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
