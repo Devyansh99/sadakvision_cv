@@ -16,6 +16,9 @@ predictions.json
 data/
 *.zip
 
+# HF upload staging (large binaries, upload via browser instead)
+hf_upload/
+
 # Python / OS noise
 __pycache__/
 *.pyc
